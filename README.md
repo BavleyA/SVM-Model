@@ -55,5 +55,77 @@ To install all the required dependencies for this project, you can use the follo
 
 ```bash
 pip install -r requirements.txt
+```
+
+# Additional Notes for Setting Up a Virtual Environment
+
+If you're using a virtual environment (which is **recommended** for project-specific package management), make sure to activate it before running the `pip install` command.
+
+## Creating a Virtual Environment
+
+To create a virtual environment, run the following command:
+
+```bash
+python -m venv myenv
+```
+# Activating a Virtual Environment
+
+Once you have created a virtual environment, you need to activate it to start using it for your project. Below are the instructions for activating the virtual environment on different operating systems:
+
+## On Windows
+
+To activate the virtual environment on Windows, run the following command in your terminal:
+
+```bash
+myenv\Scripts\activate
+```
+
+## On Mac/Linux
+
+To activate the virtual environment on Windows, run the following command in your terminal:
+
+```bash
+source myenv/bin/activate
+```
+Once activated, your terminal prompt should change, and you'll see the environment name (e.g., (myenv)) at the beginning of the line, indicating that the virtual environment is active.
+
+# Setting Up the Environment
+
+After setting up the environment and installing the necessary dependencies, you’re ready to run the project!
+
+## Installation Steps Recap
+
+1. **Create a Virtual Environment**:
+   - Run the following command to create a virtual environment:
+     ```bash
+     python -m venv myenv
+     ```
+   
+2. **Activate the Virtual Environment**:
+   - On **Windows**:
+     ```bash
+     myenv\Scripts\activate
+     ```
+   - On **Mac/Linux**:
+     ```bash
+     source myenv/bin/activate
+     ```
+
+3. **Install Dependencies**:
+   - After activating the virtual environment, install the dependencies by running:
+     ```bash
+     pip install -r requirements.txt
+     ```
+
+Once these steps are completed, you are now ready to run the project!
+
+## Running the Project
+
+1. Ensure the virtual environment is activated.
+2. Run the project scripts as per the instructions in the README or as required.
+
+---
+
+You can save this content in a file named `requirements.md`. This file provides the necessary details to install dependencies and set up the environment before running the project.
 
 
