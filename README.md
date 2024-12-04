@@ -27,8 +27,7 @@ The dataset used in this project contains the following features:
 
 ### Objective
 
-- **Predict**: Whether an employee will leave the company (`attrition = 1`) or stay (`attrition = 0`).
-- **Analyze**: Identify which features have the most significant impact on employee attrition.
+- **Predict**: Whether an employee will leave the company (`1`) or stay (`0`).
 
 ## Installation
 
