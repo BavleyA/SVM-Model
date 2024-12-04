@@ -8,9 +8,9 @@ This project uses a **Support Vector Machine (SVM)** model to predict whether an
 
 Employee attrition is a critical issue for companies as it involves recruitment and operational costs. By predicting which employees are at risk of leaving, companies can take preventive measures to improve retention. This project builds an SVM classifier to predict whether an employee will leave the company or stay based on their personal and professional attributes.
 
-### Dataset
+## Dataset
 
-# Dataset Name
+### Dataset Name
 
 - **Employee.csv**
 
