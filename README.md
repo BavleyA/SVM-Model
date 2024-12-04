@@ -34,4 +34,26 @@ The dataset used in this project contains the following features:
 To get started with this project, clone the repository to your local machine.
 
 ```bash
-git clone https://github.com/yourusername/employee-attrition-prediction.git
+  git clone https://github.com/yourusername/employee-attrition-prediction.git
+```
+# Project Requirements
+
+This project requires several Python libraries to run smoothly. Below are the necessary dependencies:
+
+### Required Libraries
+
+- **pandas**: For data manipulation and analysis.
+- **numpy**: For numerical operations and handling arrays.
+- **matplotlib**: For creating static, animated, and interactive visualizations.
+- **seaborn**: For statistical data visualization built on top of matplotlib.
+- **scikit-learn**: For machine learning algorithms and tools.
+- **joblib**: For serializing Python objects, especially used to save and load the trained model.
+
+### Installation
+
+To install all the required dependencies for this project, you can use the following `pip` command:
+
+```bash
+pip install -r requirements.txt
+
+
